@@ -1,0 +1,25 @@
+body {
+    padding: 24px;
+}
+
+.user-input label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.user-input input {
+    min-width: 320px;
+}
+
+.output {
+    margin-top: 10px
+}
+
+.output table, th, tr, td {
+    border: 1px solid black;
+}
+
+.output td {
+    min-width: 120px;
+}
+
