@@ -1,12 +1,11 @@
-function handleOnChangeInput () {
-  const tableElement = document.getElementById('output-table')
 
+const tableElement = document.getElementById('output-table')
+function handleOnChangeInput () {
   tableElement.removeChild(document.getElementById('generated-tbody'))
   generateTableBody()
 }
 
 function generateTableBody () {
-  const tableElement = document.getElementById('output-table')
   const tableBody = document.createElement('tbody')
   tableBody.id = 'generated-tbody'
 
